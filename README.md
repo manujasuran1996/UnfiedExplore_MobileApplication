@@ -1,4 +1,4 @@
-# UnfiedExplore_MobilaApplication
+# UnfiedExplore - mobile application
 An all-in-one communication system build for an android based mobile platform
 This includes following components:
 1. The complete source code of the mobile application Unified Explore that was implemented on Android Studio IDE using the programming language Java and Firebase as real-time database.
