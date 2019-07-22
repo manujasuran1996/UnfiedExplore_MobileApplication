@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_post"
+        android:title="Share Snap"
+        android:icon="@drawable/add_post"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon"/>
+
+    <item
+        android:id="@+id/nav_route"
+        android:title="Find Route"
+        android:icon="@drawable/find_route"/>
+
+    <item
+        android:id="@+id/nav_explorer"
+        android:title="Become Explorer"
+        android:icon="@drawable/become_explorer"/>
+
+    <item
+        android:id="@+id/nav_find_friends"
+        android:title="Find Friends"
+        android:icon="@drawable/find_friends"/>
+
+    <item
+        android:id="@+id/nav_messages"
+        android:title="Messages"
+        android:icon="@drawable/messages"/>
+
+    <item
+        android:id="@+id/nav_leaderboard"
+        android:title="Leaderboard"
+        android:icon="@drawable/leaderboard"/>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/logout"/>
+
+</menu>

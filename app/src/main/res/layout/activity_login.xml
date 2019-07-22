@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_5"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_bg"
+        android:drawableLeft="@drawable/email"
+        android:ems="10"
+        android:hint="E-mail"
+        android:textColorHint="@color/login_form_details"
+        android:textColor="@color/login_form_details"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/login_email"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_bg"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="@color/login_form_details"
+        android:textColor="@color/login_form_details"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/remember_me_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_bg"
+        android:text="Remember me?"
+        android:textColor="@color/login_form_details"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/remember_me_checkbox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/input_design"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:text="Login Now"
+        android:textColor="@color/login_form_details"/>
+
+    <View
+        android:id="@+id/login_line"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#fff"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true">
+    </View>
+
+    <TextView
+        android:id="@+id/register_account_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Don't have an account? Sign Up!"
+        android:textColor="@color/login_form_details" />
+
+</RelativeLayout>
